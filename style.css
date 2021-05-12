@@ -2,3 +2,17 @@
   width: 25px;
   height: 25px;
 }
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  height: 100%;
+  background-image: url('imgs/Twisted Fate.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
