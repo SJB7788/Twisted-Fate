@@ -9,10 +9,40 @@ html {
   margin: 0;
 }
 
-.bg {
+.bg-title {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 64%;
+}
+
+.title-bg {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
   height: 100%;
-  background-image: url('imgs/Twisted Fate.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  z-index: -1;
+}
+
+.title-title {
+  color: black;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  bottom: 500px;
+}
+
+.bio-bg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.bio-title {
+  color: black;
+  font-size: 23pt;
+}
+
+.bio-description {
+  color: black;
 }
