@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: Spiegel;
-  src: url(fonts/spiegel.ttf);
+  src: url(spiegel.ttf);
 }
 * {
   box-sizing: border-box;
@@ -290,7 +290,8 @@ html {
 }
 
 .card-master {
-  font-family: Spigel;
+  font-family: Spiegel;
+  letter-spacing: 1px;
   font-size: 15pt;
   margin: auto;
 }
