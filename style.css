@@ -36,6 +36,7 @@ html {
 /*Navbar*/
 
 #navbar {
+  position: relative;
   display: flex;
   justify-content: space-between;
   background-color: black;
@@ -44,7 +45,6 @@ html {
 
 .navbar__logo {
   position: relative;
-  left: -43.5%;
   padding: 13px;
 }
 
@@ -58,7 +58,7 @@ html {
   background-color: gray;
   padding: 2px 5px;
   margin: 5px 10px;
-  text-align: center;
+
   font-size: 25px;
   font-family: bison;
 }
@@ -420,4 +420,71 @@ html {
 .skin-img-link:hover .skin-description {
   opacity: 0.5;
   transform: translateY(0px);
+}
+
+/* For screen below 768px */
+@media screen and (max-width: 768px) {
+  .title-title h1 {
+    align-items: center;
+
+    font-size: 65pt;
+  }
+
+  .pick-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .redcard {
+    margin-bottom: 55px;
+  }
+
+  .yellowcard {
+    margin-bottom: 55px;
+  }
+
+  .bluecard {
+    margin-bottom: 55px;
+  }
+
+  .bilgewater-icon {
+    display: none;
+  }
+
+  .bio-title {
+    font-size: 25pt;
+  }
+
+  .bio-img-class {
+    width: 50%;
+    height: 50%;
+  }
+
+  .bio-name {
+    font-size: 30pt;
+  }
+
+  .card-master {
+    font-size: 12pt;
+  }
+
+  .bio-description {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 35%;
+  }
+
+  .bio-description-p1,
+  .bio-description-p2 {
+    margin-top: 5px;
+    font-size: 10pt;
+  }
+
+  .bio-description-p1 {
+    line-height: 19pt;
+  }
+
+  .bio-description-p2 {
+    line-height: 15pt;
+  }
 }

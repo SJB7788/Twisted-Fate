@@ -23,9 +23,7 @@
 </head>
 <body>
 <!--Navbar-->
-<section id="navbar">
-  <!--navbar-->
-  <nav id="navbar"></nav>
+<nav id="navbar">
   <div class="navbar__logo">
     <i class="league_logo"></i>
     <img class="logo" src="imgs/league logo.png">
@@ -33,7 +31,8 @@
   <div class="navbar__menu">
     <a class="navbar__menu__item" href="https://na.leagueoflegends.com">Official Website</a>
   </div>
-</section>
+</nav>
+
 <!--title page-->
 <section id="home">
   <div class="title">
@@ -53,7 +52,7 @@
   <h1 class="pick_heading">PICK A CARD</h1>
   <h2 class="pick_heading2">ANY CARD</h2>
   <div class="pick-card">
-    <div class="redcard">
+    <div class="redcard" id="pick-card-icon">
       <div class="redcard_img">
         <img src="imgs/Red Card.png">
       </div>
@@ -64,7 +63,7 @@
         <p>Deals Magic Damage to all enemies around the target and slows them for 2.5 seconds</p>
       </div>
     </div>
-    <div class="yellowcard">
+    <div class="yellowcard" id="pick-card-icon">
       <div class="yellowcard_img">
         <img src="imgs/Yellow Card 2.png">
       </div>
@@ -75,7 +74,7 @@
         <p>Stuns the Target</p>
       </div>
     </div>
-    <div class="bluecard">
+    <div class="bluecard" >
       <div class="bluecard_description">
         <p>Deals more Magic Damage and Restores Mana</p>
       </div>
@@ -103,7 +102,7 @@
       <img class="bio-bg-class" src="imgs/Twisted Fate Bio Background.png">
     </div>
     <div class="bio-img">
-      <img src="imgs/Twisted Fate Bio Image.png">
+      <img class="bio-img-class" src="imgs/Twisted Fate Bio Image.png">
     </div>
     <div class="bio-description-title">
       <h class="bio-name">TWISTED FATE</h>
@@ -111,12 +110,12 @@
     </div>
     <div class="bio-description">
       <div class="bio-description-main-info">
-        <p>NAME: Tobais Felix
+        <p class="bio-description-p1">NAME: Tobais Felix
         <br> PLACE OF ORIGIN: Serpentine River
         <br> REGION: Bilgewater
         </p>
       </div>
-      <p> 
+      <p class="bio-description-p2"> 
         Twisted Fate is an infamous cardsharp and 
         swindler who has gambled and charmed his way 
         across much of the known world, earning the 
