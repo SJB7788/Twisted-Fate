@@ -273,6 +273,10 @@ html {
   left: 5%;
 }
 
+.bio-description-img {
+  display: none;
+}
+
 .bio-description-title {
   position: absolute;
   top: 20%;
@@ -327,10 +331,18 @@ html {
 .background-shade {
   position: absolute;
   z-index: 0;
-  top: 90%;
+  top: 104%;
   height: 15%;
   width: 100%;
   background: linear-gradient(black 0%, white 100%);
+}
+
+.black-bg {
+  background: black;
+  position: absolute;
+  top: 90%;
+  height: 15%;
+  width: 100%;
 }
 
 .skins-title {
@@ -338,12 +350,11 @@ html {
   text-align: center;
   border-bottom: 1px solid #000;
   line-height: 0.1em;
-  text-align: center;
   font-family: beaufortforLOL;
   font-size: calc(61.82px + 3.03vw);
   font-style: italic;
   color: black;
-  margin-top: 300px;
+  margin-top: 500px;
   position: relative;
 }
 
@@ -428,6 +439,13 @@ html {
 .skin-img-link:hover .skin-description {
   opacity: 0.5;
   transform: translateY(0px);
+}
+
+.copyright {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  margin-top: 500px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -521,6 +539,37 @@ html {
 
   .bio-img img {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .bio-title h1 {
+    margin-top: 20%;
+    font-size: 45pt;
+  }
+
+  .bio-name {
+    font-size: 35pt;
+  }
+
+  .card-master {
+    font-size: 12pt;
+  }
+
+  .bio-description-p1,
+  .bio-description-p2 {
+    font-size: 10.2pt;
+    width: 310px;
+  }
+
+  .bio-description-p1 {
+    margin-top: 30px;
+    line-height: 27pt;
+  }
+
+  .bio-description-p2 {
+    margin-top: 40px;
+    line-height: 17pt;
   }
 }
 
@@ -643,13 +692,44 @@ html {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 720px) {
+  .bio-title h1 {
+    margin-top: 20%;
+    font-size: 38pt;
+  }
+
+  .bio-name {
+    font-size: 28pt;
+  }
+
+  .card-master {
+    font-size: 10pt;
+  }
+
+  .bio-description-p1,
+  .bio-description-p2 {
+    font-size: 9pt;
+    width: 250px;
+    margin
+  }
+
+  .bio-description-p1 {
+    
+  }
+  .bio-description-p2 {
+    margin-top: 40px;
+    line-height: 17pt;
+  }
+}
+
+
+@media screen and (max-width: 640px){
   .title-title h1 {
     font-size: 50pt;
     margin-top: 0px;
   }
   .pick_heading {
-    font-size: 67pt;
+    font-size: 50pt;
     margin-top: 200px;
   }
 
@@ -658,24 +738,95 @@ html {
     top: 8.5%;
   }
 
+  .bio-img img {
+    transform: translate(30%, 0%);
+    width: 60%;
+  }
+
+  .bio-description-title {
+    margin-top: 53%;
+    transform: translate(-84%, 50%);
+    width: 64%;
+  }
+
+  .bio-description-border-box {
+    transform: translate(7.4%, -6%);
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    border: 1px solid white;
+    z-index: 0;
+  }
+
   .bio-name {
-    font-size: 25pt;
+    font-size: 35pt;
+    background-color: black;
+    z-index: 2;
   }
 
   .card-master {
     font-size: 10pt;
   }
 
+  .bio-description-img {
+    display: block;
+  }
+
+  .bio-description-img img {
+    margin-top: 40px;
+    margin-left: 15px;
+    width: 43%;
+    z-index: 2;
+    position: absolute;
+  }
+
   .bio-description {
-    margin-top: 30px;
+    margin-left: 90px;
+    margin-top: 66%;
+    transform: translate(-44%, 0);
+    width: 100%;
+    z-index: 1;
   }
 
   .bio-description-p1,
   .bio-description-p2 {
     font-size: 9pt;
+    width: 250px;
   }
 
   .bio-description-p2 {
     line-height: 12pt;
+  }
+
+  .black-bg {
+    z-index: -1;
+    top: 83%;
+    height: 90%;
+  }
+
+  .background-shade {
+    display: none;
+  }
+
+  .skins-title {
+    margin-top: 700px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .bio-title h1 {
+    margin-top: 20%;
+    font-size: 29pt;
+  }
+
+  .bio-name {
+    margin-top: 12%;
+    font-size: 29pt;
+  }
+
+  .bio-description-p1,
+  .bio-description-p2 {
+    font-size: 7.5pt;
+    width: 200px;
   }
 }
