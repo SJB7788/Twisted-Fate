@@ -3,9 +3,5 @@
 console.log('hello world');
 
 document.addEventListener('scroll', () => {
-  console.log('helloworld2');
+  console.log('WORKAJSDKLASJDL');
 });
-
-document.addEventListener('click', () => {
-    console.log('helloworld3');
-  });
