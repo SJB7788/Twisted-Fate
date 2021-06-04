@@ -1,243 +1,309 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twisted Fate</title>
+    <meta name="description" content="Website ceneterd around Twisted Fate" />
+    <link rel="Icon" type="image/png" href="imgs/Yellow Card.png" />
+    <script
+      src="https://kit.fontawesome.com/c953c1a6b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="league_logo"></i>
+        <img class="logo" src="imgs/league logo.png" />
+      </div>
+      <div class="navbar__menu">
+        <a class="navbar__menu__item" href="https://na.leagueoflegends.com"
+          >Official Website</a
+        >
+      </div>
+    </nav>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Twisted Fate</title>
-  <meta name="description" content="Website ceneterd around Twisted Fate" />
-  <link rel="Icon" type="image/png" href="imgs/Yellow Card.png" />
-  <script
-    src="https://kit.fontawesome.com/c953c1a6b3.js"
-    crossorigin="anonymous"
-  ></script>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400;1,600&display=swap"
-    rel="stylesheet"
-  />
-	<link rel="stylesheet" href="style.css"/>
-  <script src="main.js" defer></script>
-</head>
-<body>
-<!--Navbar-->
-<nav id="navbar">
-  <div class="navbar__logo">
-    <i class="league_logo"></i>
-    <img class="logo" src="imgs/league logo.png">
-  </div>
-  <div class="navbar__menu">
-    <a class="navbar__menu__item" href="https://na.leagueoflegends.com">Official Website</a>
-  </div>
-</nav>
+    <!--title page-->
+    <section id="home">
+      <div class="title">
+        <div class="title-title">
+          <h1>TWISTED FATE</h1>
+        </div>
+        <div class="bg-title">
+          <img src="imgs/Twisted Fate Title Background.png" class="title-bg" />
+        </div>
+      </div>
+    </section>
+    <!--pick a card-->
+    <section id="pick" class="section">
+      <div class="bilgewater-icon">
+        <img class="bilgewater" src="imgs/Bilgewater_Crest_icon.png" />
+      </div>
+      <h1 class="pick_heading">PICK A CARD</h1>
+      <h2 class="pick_heading2">ANY CARD</h2>
+      <div class="pick-card">
+        <div class="redcard" id="pick-card-icon">
+          <div class="redcard_img">
+            <img src="imgs/Red Card.png" />
+          </div>
+          <div class="card_title">
+            <h1>RED CARD</h1>
+          </div>
+          <div class="redcard_description">
+            <p>
+              Deals Magic Damage to all enemies around the target and slows them
+              for 2.5 seconds
+            </p>
+          </div>
+        </div>
+        <div class="yellowcard" id="pick-card-icon">
+          <div class="yellowcard_img">
+            <img src="imgs/Yellow Card 2.png" />
+          </div>
+          <div class="card_title">
+            <h1>YELLOW CARD</h1>
+          </div>
+          <div class="yellowcard_description">
+            <p>Stuns the Target</p>
+          </div>
+        </div>
+        <div class="bluecard">
+          <div class="bluecard_description">
+            <p>Deals more Magic Damage and Restores Mana</p>
+          </div>
+          <div class="bluecard_img">
+            <img src="imgs/Blue Card.png" />
+          </div>
+          <div class="card_title">
+            <h1>BLUE CARD</h1>
+          </div>
+        </div>
+      </div>
+      <div class="more-info">
+        <a href="https://na.leagueoflegends.com/en-us/champions/twisted-fate/"
+          >FULL ABILITY RUNDOWN</a
+        >
+      </div>
+    </section>
 
-<!--title page-->
-<section id="home">
-  <div class="title">
-    <div class="title-title">
-      <h1>TWISTED FATE</h1>
-    </div>
-    <div class="bg-title">
-      <img src="imgs/Twisted Fate Title Background.png" class=title-bg>
-    </div>   
-  </div>
-</section>
-<!--pick a card-->
-<section id="pick" class="section">
-  <div class="bilgewater-icon">
-    <img class="bilgewater" src="imgs/Bilgewater_Crest_icon.png">
-  </div>
-  <h1 class="pick_heading">PICK A CARD</h1>
-  <h2 class="pick_heading2">ANY CARD</h2>
-  <div class="pick-card">
-    <div class="redcard" id="pick-card-icon">
-      <div class="redcard_img">
-        <img src="imgs/Red Card.png">
+    <!--biography of TF-->
+    <section id="biography">
+      <div class="bio">
+        <div class="bio-title">
+          <h1>BIOGRAPHY</h1>
+        </div>
+        <div class="bio-bg">
+          <img
+            class="bio-bg-class"
+            src="imgs/Twisted Fate Bio Background.png"
+          />
+        </div>
+        <div class="bio-img">
+          <img class="bio-img-class" src="imgs/Twisted Fate Bio Image.png" />
+        </div>
+        <div class="bio-description-title">
+          <h1 class="bio-name">TWISTED FATE</h1>
+          <h3 class="card-master">THE CARD MASTER</h3>
+        </div>
+        <div class="bio-description-img">
+          <img src="imgs/TF Bio.png" />
+        </div>
+        <div class="bio-description-border-box"></div>
+        <div class="bio-description">
+          <div class="bio-description-main-info">
+            <p class="bio-description-p1">
+              NAME: Tobais Felix <br />
+              PLACE OF ORIGIN: Serpentine River <br />
+              REGION: Bilgewater
+            </p>
+          </div>
+          <p class="bio-description-p2">
+            Twisted Fate is an infamous cardsharp and swindler who has gambled
+            and charmed his way across much of the known world, earning the
+            enmity and admiration of the rich and foolish alike. He rarely takes
+            things seriously, greeting each day with a mocking smile and an
+            insouciant swagger. In every possible way, Twisted Fate always has
+            an ace up his sleeve.
+          </p>
+        </div>
+        <div class="background-shade"></div>
+        <div class="black-bg"></div>
       </div>
-      <div class="card_title">
-        <h1>RED CARD</h1>
-      </div>
-      <div class="redcard_description">
-        <p>Deals Magic Damage to all enemies around the target and slows them for 2.5 seconds</p>
-      </div>
-    </div>
-    <div class="yellowcard" id="pick-card-icon">
-      <div class="yellowcard_img">
-        <img src="imgs/Yellow Card 2.png">
-      </div>
-      <div class="card_title">
-        <h1>YELLOW CARD</h1>
-      </div>
-      <div class="yellowcard_description">
-        <p>Stuns the Target</p>
-      </div>
-    </div>
-    <div class="bluecard" >
-      <div class="bluecard_description">
-        <p>Deals more Magic Damage and Restores Mana</p>
-      </div>
-      <div class="bluecard_img">
-        <img src="imgs/Blue Card.png">
-      </div>
-      <div class="card_title">
-        <h1>BLUE CARD</h1>
-      </div>
-      
-    </div>
-  </div>
-  <div class="more-info">
-    <a href="https://na.leagueoflegends.com/en-us/champions/twisted-fate/">FULL ABILITY RUNDOWN</a>
-  </div>
-</section>
+    </section>
 
-<!--biography of TF-->
-<section id="biography">
-  <div class="bio">
-    <div class="bio-title">
-      <h1>BIOGRAPHY</h1>
-    </div>
-    <div class="bio-bg">
-      <img class="bio-bg-class" src="imgs/Twisted Fate Bio Background.png">
-    </div>
-    <div class="bio-img">
-      <img class="bio-img-class" src="imgs/Twisted Fate Bio Image.png">
-    </div>
-    <div class="bio-description-title">
-      <h1 class="bio-name">TWISTED FATE</h1>
-      <h3 class="card-master">THE CARD MASTER</h3>
-    </div>
-    <div class="bio-description-img">
-      <img src="imgs/TF Bio.png">
-    </div>
-    <div class="bio-description-border-box"></div>
-    <div class="bio-description">
-      <div class="bio-description-main-info">
-        <p class="bio-description-p1">NAME: Tobais Felix
-        <br> PLACE OF ORIGIN: Serpentine River
-        <br> REGION: Bilgewater
-        </p>
+    <!--TF skins-->
+    <section id="skins">
+      <h1 class="skins-title"><span>SKINS</span></h1>
+      <div class="skin-pages">
+        <button class="skin-button">
+          Page One <span class="skin-button-number">8</span>
+        </button>
+        <button class="skin-button">
+          Page Two <span class="skin-button-number">6</span>
+        </button>
       </div>
-      <p class="bio-description-p2"> 
-        Twisted Fate is an infamous cardsharp and 
-        swindler who has gambled and charmed his way 
-        across much of the known world, earning the 
-        enmity and admiration of the rich and 
-        foolish alike. He rarely takes things seriously, greeting 
-        each day with a mocking smile and 
-        an insouciant swagger. In every possible way, 
-        Twisted Fate always has an ace up his sleeve.
-      </p>
-    </div>
-    <div class="background-shade"></div>
-    <div class="black-bg"></div>
-</div>
 
-</section>
-
-<!--TF skins--> 
-<section id="skins">
-  <h1 class="skins-title"><span>SKINS</span></h1>
-  <div class="skin-pages">
-    <button class="skin-button">
-      Page One <span class="skin-button-number">8</span>
-    </button>
-    <button class="skin-button">
-      Page Two <span class="skin-button-number">6</span>
-    </button>
-  </div>
-
-  <div class="skin-img">
-    <a href="imgs/Skins/Twisted Fate Skin.jpg" class="skin-img-link">
-      <img class="skin__img"src="imgs/Skins/Twisted Fate Skin.jpg" alt="Original Skin">
-      <div class="skin-description">
-        <h3>Twisted Fate</h3>
+      <div class="skin-img">
+        <a href="imgs/Skins/Twisted Fate Skin.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/Twisted Fate Skin.jpg"
+            alt="Original Skin"
+          />
+          <div class="skin-description">
+            <h3>Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/Pax Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/Pax Twisted Fate.jpg"
+            alt="Pax Skin"
+          />
+          <div class="skin-description">
+            <h3>Pax Twisted Fate</h3>
+          </div>
+        </a>
+        <a
+          href="imgs/Skins/Jack of Hearts Twisted Fate.jpg"
+          class="skin-img-link"
+        >
+          <img
+            class="skin__img"
+            src="imgs/Skins/Jack of Hearts Twisted Fate.jpg"
+            alt="Jack of Hearts Skin"
+          />
+          <div class="skin-description">
+            <h3>Jack of Hearts Twisted Fate</h3>
+          </div>
+        </a>
+        <a
+          href="imgs/Skins/The Magnificent Twisted Fate.jpg"
+          class="skin-img-link"
+        >
+          <img
+            class="skin__img"
+            src="imgs/Skins/The Magnificent Twisted Fate.jpg"
+            alt="Magnificent Skin"
+          />
+          <div class="skin-description">
+            <h3>The Magnificent Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/Tango Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/Tango Twisted Fate.jpg"
+            alt="Tango Skin"
+          />
+          <div class="skin-description">
+            <h3>Tango Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/High Noon Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/High Noon Twisted Fate.jpg"
+            alt="High Noon Skin"
+          />
+          <div class="skin-description">
+            <h3>High Noon Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/Musketeer Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/Musketeer Twisted Fate.jpg"
+            alt="Musketeer Skin"
+          />
+          <div class="skin-description">
+            <h3>Musketeer Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/Underworld Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/Underworld Twisted Fate.jpg"
+            alt="Underworld Skin"
+          />
+          <div class="skin-description">
+            <h3>Underworld Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/Red Card Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/Red Card Twisted Fate.jpg"
+            alt="Red Card Skin"
+          />
+          <div class="skin-description">
+            <h3>Red Card Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/Catpurse Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/Catpurse Twisted Fate.jpg"
+            alt="Catpurse Skin"
+          />
+          <div class="skin-description">
+            <h3>Catpurse Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/Blood Moon Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/Blood Moon Twisted Fate.jpg"
+            alt="Blood Moon Skin"
+          />
+          <div class="skin-description">
+            <h3>Blood Moon Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/Pulsefire Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/Pulsefire Twisted Fate.jpg"
+            alt="Pulsefire Skin"
+          />
+          <div class="skin-description">
+            <h3>Pulsefire Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/Odyssey Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/Odyssey Twisted Fate.jpg"
+            alt="Odyssey Skin"
+          />
+          <div class="skin-description">
+            <h3>Odyssey Twisted Fate</h3>
+          </div>
+        </a>
+        <a href="imgs/Skins/DWG Twisted Fate.jpg" class="skin-img-link">
+          <img
+            class="skin__img"
+            src="imgs/Skins/DWG Twisted Fate.jpg"
+            alt="DWG Skin"
+          />
+          <div class="skin-description">
+            <h3>DWG Twisted Fate</h3>
+          </div>
+        </a>
       </div>
-    </a>
-    <a href="imgs/Skins/Pax Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/Pax Twisted Fate.jpg" alt="Pax Skin">
-      <div class="skin-description">
-        <h3>Pax Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/Jack of Hearts Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/Jack of Hearts Twisted Fate.jpg" alt="Jack of Hearts Skin">
-      <div class="skin-description">
-        <h3>Jack of Hearts Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/The Magnificent Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/The Magnificent Twisted Fate.jpg" alt="Magnificent Skin">
-      <div class="skin-description">
-        <h3>The Magnificent Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/Tango Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/Tango Twisted Fate.jpg" alt="Tango Skin">
-      <div class="skin-description">
-        <h3>Tango Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/High Noon Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/High Noon Twisted Fate.jpg" alt="High Noon Skin">
-      <div class="skin-description">
-        <h3>High Noon Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/Musketeer Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/Musketeer Twisted Fate.jpg" alt="Musketeer Skin">
-      <div class="skin-description">
-        <h3>Musketeer Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/Underworld Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/Underworld Twisted Fate.jpg" alt="Underworld Skin">
-      <div class="skin-description">
-        <h3>Underworld Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/Red Card Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/Red Card Twisted Fate.jpg" alt="Red Card Skin">
-      <div class="skin-description">
-        <h3>Red Card Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/Catpurse Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/Catpurse Twisted Fate.jpg" alt="Catpurse Skin">
-      <div class="skin-description">
-        <h3>Catpurse Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/Blood Moon Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/Blood Moon Twisted Fate.jpg" alt="Blood Moon Skin">
-      <div class="skin-description">
-        <h3>Blood Moon Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/Pulsefire Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/Pulsefire Twisted Fate.jpg" alt="Pulsefire Skin">
-      <div class="skin-description">
-        <h3>Pulsefire Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/Odyssey Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/Odyssey Twisted Fate.jpg" alt="Odyssey Skin">
-      <div class="skin-description">
-        <h3>Odyssey Twisted Fate</h3>
-      </div>
-    </a>
-    <a href="imgs/Skins/DWG Twisted Fate.jpg" class="skin-img-link">
-      <img class="skin__img" src="imgs/Skins/DWG Twisted Fate.jpg" alt="DWG Skin">
-      <div class="skin-description">
-        <h3>DWG Twisted Fate</h3>
-      </div>
-    </a>
-  </div>
-</section>
-<!--copyright-->
-<section id="copyright">
-  <div class="copyright">
-  </div>
-  
-</section>
-</body>
+    </section>
+    <!--copyright-->
+    <section id="copyright">
+      <div class="copyright"></div>
+    </section>
+  </body>
 </html>
