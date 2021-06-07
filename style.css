@@ -82,12 +82,14 @@ body {
 .bg-title {
   position: relative;
   overflow: hidden;
+
   width: 100%;
 }
 
 .title-bg {
   position: relative;
   object-fit: cover;
+  background: transparent;
   width: 100%;
   height: 100%;
 }
