@@ -17,3 +17,23 @@ const homeHeight = home.getBoundingClientRect().height;
 document.addEventListener('scroll', () =>{
   home.style.opacity = 1 - window.scrollY / homeHeight;
 })
+
+//show button when scrolled down
+const arrowUp = document.querySelector('.arrow__up');
+document.addEventListener('scroll', ()=>{
+  if(window.scrollY > homeHeight/2){
+    arrowUp.classList.add('visible');
+  }else{
+    arrowUp.classList.remove('visible');
+  }
+});
+
+//scroll up when button is clicked
+arrowUp.addEventListener('click', (event)=>{
+  const target = event.target;
+  const link = target.dataset.link;
+  const scrollTo = document.querySelector(link);
+  
+  scrollTo.scrollIntoView({behavior: 'smooth'});
+});
+
