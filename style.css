@@ -2,17 +2,29 @@
 
 @font-face {
   font-family: Bison;
-  src: url('./fonts/Bison-Bold.ttf') format('ttf');
+  src: url('./fonts/Bison-Bold.ttf') format('ttf'),
+    url('./fonts/Bison-Bold.ttf') format('ttf'),
+    url('./fonts/Bison-Bold.woff2') format('woff2'),
+    url('./fonts/Bison-Bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: BeaufortforLOL;
-  src: url('./fonts/BeaufortforLOL.woff.ttf') format('ttf');
+  src: url('./fonts/BeaufortforLOL.woff.ttf') format('ttf'),
+    url('./fonts/BeaufortforLOL-Bold.eot') format('ttf'),
+    url('./fonts/BeaufortforLOL-Bold.woff2') format('woff2'),
+    url('./fonts/BeaufortforLOL-Bold.svg') format('svg');
 }
 
 @font-face {
   font-family: Spiegel;
-  src: url('./fonts/spiegel.ttf') format('ttf');
+  src: url('./fonts/spiegel.ttf') format('ttf'),
+    url('./fonts/spiegel.eot') format('ttf'),
+    url('./fonts/spiegel.woff2') format('woff2'),
+    url('./fonts/spiegel.svg') format('svg');
 }
 * {
   box-sizing: border-box;
